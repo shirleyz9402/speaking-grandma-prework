@@ -12,11 +12,11 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 speak_to_grandma = gets.chomp
-  if phrase == "I LOVE YOU GRANDMA!"
+  if speak_to_grandma == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase == phrase.downcase
+  elsif speak_to_grandma == speak_to_grandma.downcase
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == phrase.upcase
+  elsif speak_to_grandma == speak_to_grandma.upcase
     puts "NO, NOT SINCE 1983!"
 end 
   
